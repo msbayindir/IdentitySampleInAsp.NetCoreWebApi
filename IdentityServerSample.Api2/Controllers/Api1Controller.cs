@@ -22,12 +22,15 @@ public class Api1Controller : ControllerBase
     }
 
     [HttpGet]
+    [Authorize("Read")]
     public IActionResult GetProduct()
     {
         return Ok(_products);
         
     }
     [HttpPost]
+    [Authorize("Write")]
+
     public IActionResult GetProduct([FromBody]Product product)
     {
         if (!ModelState.IsValid) return BadRequest(ModelState);

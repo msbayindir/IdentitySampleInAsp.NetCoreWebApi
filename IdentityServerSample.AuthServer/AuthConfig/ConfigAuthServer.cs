@@ -31,7 +31,7 @@ public static class ConfigAuthServer
                 ClientName = "Client1",
                 ClientSecrets = { new Secret("client1".Sha256()) },
                 AllowedGrantTypes = { GrantType.ClientCredentials },
-                AllowedScopes = { "Api1.Write", "Api1.Read" }
+                AllowedScopes = { "Api1.Read" }
             },
             new Client
             {
