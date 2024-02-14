@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "l3bJtqCaNSMx+fPdvXcAB+vhBYJqzQZu4o5iRHELMmM=",
+  "Source": "IdentityServerSample.AuthServer",
+  "BasePath": "_content/IdentityServerSample.AuthServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
